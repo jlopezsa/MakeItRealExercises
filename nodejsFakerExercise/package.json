@@ -1,0 +1,12 @@
+{
+  "name": "nodejsfakerexercise",
+  "version": "1.0.0",
+  "description": "Packae to generation of 1000 names",
+  "main": "fakerNames.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Julian Jair Lopez Salamanca",
+  "license": "MIT"
+}
