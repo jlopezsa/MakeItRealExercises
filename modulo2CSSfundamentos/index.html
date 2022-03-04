@@ -85,7 +85,7 @@
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo voluptatem laboriosam iure modi dignissimos ea
         accusantium. Laborum quidem iure id quaerat reprehenderit dicta eaque repudiandae sit placeat. Minima
         consectetur quisquam dolorum, alias perferendis officia, illum autem blanditiis reprehenderit rem voluptatum
-        impedit atque dolorem numquam. Sed, <img src="figures/astronomy_1280.png" alt="" class="figure">possimus
+        impedit atque dolorem numquam. Sed, <img src="figures/tree_100x100.png" alt="three">possimus
         reiciendis hic exercitationem ducimus eos quaerat? Doloribus deleniti excepturi et sequi impedit fugit quae,
         voluptatum mollitia aliquid nostrum laborum natus aliquam commodi pariatur enim ullam saepe iure inventore
         minima, quaerat assumenda magnam accusamus reprehenderit temporibus? Quas error quasi facere pariatur velit quam
@@ -96,13 +96,68 @@
       <h3>Imagen entre parrafos</h3>
       <div class="concept">
         <h4>Respuesta</h4>
-        <p>Cuando una imagen se ubica entre dos parrafos (etiquetas <strong>p</strong>), esta se ubica en médio de ellos y a la izquierda, según el tamaño que le fue atribuido, en este caso 100x100px</p>
+        <p>Cuando una imagen se ubica entre dos parrafos (etiquetas <strong>p</strong>), esta se ubica en médio de ellos y a la izquierda, según el tamaño que le fue atribuido, en este caso 200x200px</p>
       </div>
       <h3>Ejemplo</h3>
       <p>PARRAFO-1: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate modi est commodi voluptatum quam minima eum tempora asperiores omnis? Fugiat non quae odit aut quas neque quasi voluptatum culpa corporis minus deserunt expedita accusantium velit aliquid possimus laudantium quia necessitatibus, blanditiis voluptatibus cumque. Eos hic optio, illo saepe consequuntur asperiores.</p>
-      <img src="figures/astronomy_1280.png" alt="" class="figure">
+      <img src="figures/astronauta_200x200.png" alt="astronauta" class="betweenParagraph">
       <p>PARRAFO-2: Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id sapiente error quis impedit libero consequatur fuga officia aperiam, sed amet voluptas enim voluptatibus explicabo possimus ratione vitae exercitationem, suscipit, optio tempora? Vel vero, qui placeat nobis quod dolores eaque? Commodi tempora labore totam reiciendis aliquam placeat sequi iure maxime aut?</p>
     </li>
+
+    <li>
+      <h3>Ajustando imágenes:</h3>
+
+      <h3>Ejemplos y respuestas</h3>
+      <h4>Solamente con estilos width: 100px; height: 100px</h4>
+      <div class="boxFig-simples">
+        <img src="figures/tree_100x100.png" alt="three">
+      </div>
+      <div class="concept">
+        <h4>Respuesta</h4>
+        <p>Para este ejercício la figura 100x100px se incluye dentro de la etiqueta <strong>div</strong>. Este <strong>div</strong> también tiene un tamaño de 100x100px. La figura se ubica dentro de la etiqueta y mantiene su tamaño de 100x100px</p>
+
+        <p>Cuando adicionamos el padding de 10px se crea un espacio entre la margen y el contenido, en este caso la figura.</p>
+      </div>
+      
+      <h4>a) Adicionando el estilo padding: 10px</h4>
+      <div class="boxFig-padding">
+        <img src="figures/tree_100x100.png" alt="three">
+      </div>
+      <div class="concept">
+        <h4>Respuesta</h4>
+        <p>Se adiciona un padding de 10px al modelo de caja. La figura continúa manteniendo un tamaño de 100x100px.</p>
+      </div>
+
+      <h4>b) Adicionando el estilo padding: 10px y border: 5px</h4>
+      <div class="boxFig-border">
+        <img src="figures/tree_100x100.png" alt="three">
+      </div>
+      <div class="concept">
+        <h4>Respuesta</h4>
+        <p>Al ejemplo anterior se adiciona un borde de 5px al modelo de caja. Así, ya tenemos el border + padding + content (figura) </p>
+      </div>
+
+      <h4>c) Cambiar el modelo de caja a border-box</h4>
+      <div class="boxFig-border-box">
+        <img src="figures/tree_100x100.png" alt="three">
+      </div>
+      <div class="concept">
+        <h4>Respuesta</h4>
+        <p>Al ejemplo anterior se adiciona el estilo <strong>box-sizing: border-box</strong>. En este caso el "content", del modelo de caja, se reduce a 70x70px y la figura sale del modelo de caja manteniendo su tamaño de 100x100px. Se puede concluir que la figura sale del "content" ya que no cabe en este, es como si experimentara un desbordamiento</p>
+        <p>En este caso, considerando un eje, el content(70px) + padding(10px + 10px) + border(5px + 5px) = 100 px</p>
+      </div>
+
+      <h4>d) Centrando la caja utilizando el valor auto en los márgenes horizontales</h4>
+      <div class="boxFig-center">
+        <img src="figures/tree_100x100.png" alt="three">
+      </div>
+      <div class="concept">
+        <h4>Respuesta</h4>
+        <p>En este ejemplo, el modelo de caja continua teniendo un tamaño total de 100x100px. La margen, izquierda y derecha, aumenta considerablemente para centrarse a la página.</p>
+      </div>
+    
+    </li>
+
   </ol>
 </body>
 
