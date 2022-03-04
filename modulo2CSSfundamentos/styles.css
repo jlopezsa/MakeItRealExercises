@@ -1,0 +1,26 @@
+.div-none{
+    display: none;
+    background-color: rgb(214, 138, 39);
+    width: 100px;
+    height: 100px;
+}
+
+.div-block{
+    display: block;
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+}
+
+.div-inline{
+    display: inline;
+    background-color:chartreuse;
+    width: 100px;
+    height: 100px;
+}
+.div-inline-block{
+    display: inline-block;
+    background-color:blueviolet;
+    width: 100px;
+    height: 100px;
+}
