@@ -1,3 +1,7 @@
+.concept{
+    display: flexbox;
+    background-color: rgb(170, 243, 170);
+}
 .div-none{
     display: none;
     background-color: rgb(214, 138, 39);
