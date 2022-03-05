@@ -16,11 +16,18 @@ body{
     flex-direction: column;
 }
 
+.col-imagen{
+    margin: 0px;
+    padding: 0px;
+}
+
 .message-error{
     background-color: aqua;
-    height: 45px;
+    height: 25px;
+    width: 133px;
     margin-bottom: 0px;
-    padding-left: 24px;
+    margin-top: 20px;
+    margin-left: 24px;
 
     font-family: Inconsolata;
     font-style: normal;
@@ -30,6 +37,9 @@ body{
     letter-spacing: -0.08em;
     text-transform: uppercase;
     color: #333333;
+}
+.message-error p{
+    margin: 0px;
 }
 
 .figure{
@@ -59,11 +69,18 @@ body{
     letter-spacing: -0.035em;
     color: #333333;
 }
+.message-user p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
 .message-sugestion{
-    height: 177px;
+    height: 81px;
+    //width: 328px;
     margin-left: 23px;
-    margin-right: 24px;
+    //margin-right: 24px;
+    margin-top: 30px;
+    margin-bottom: 66px;
 
     font-family: Space Mono;
     font-style: normal;
@@ -73,8 +90,10 @@ body{
     letter-spacing: -0.035em;   
     color: #4F4F4F;
 }
-.message-sugestion div{
-    margin-top: 30px;
+
+.message-sugestion p{
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 
@@ -116,3 +135,29 @@ body{
     height: 41px;
     margin-top: 0px;
 }
+.footer p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/*
+@media(min-width: 1440px){
+    .mainContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .col-imagen{
+        width: 50%;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .message-error{
+        display: flex;
+        //justify-content:start;
+        align-items: flex-end;
+        height: 65px;
+        padding-left: 77px;   
+    }
+
+}
+*/
