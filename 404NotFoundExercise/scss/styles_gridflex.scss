@@ -44,14 +44,12 @@ body{
 
 .figure{
     background-color: rebeccapurple;
-    //height: 362px;
     height: 238px;
     width: 286.83px;
     background-image: url(../figures/scarecrow.svg);
     background-repeat: no-repeat;
-    //top: 64px;
     margin-left: 44px;
-    margin-right: 44.17px;
+    //-right: 44.17px;
     margin-top: 64px;
     margin-bottom: 60px;
 }
@@ -75,10 +73,9 @@ body{
 }
 
 .message-sugestion{
+    background-color: coral;
     height: 81px;
-    //width: 328px;
     margin-left: 23px;
-    //margin-right: 24px;
     margin-top: 30px;
     margin-bottom: 66px;
 
@@ -139,8 +136,8 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
-/*
-@media(min-width: 1440px){
+
+@media(min-width: 805px){
     .mainContainer{
         display: flex;
         flex-direction: row;
@@ -151,13 +148,115 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .figure{
+        margin-left: auto;
+        margin-right: auto;
+        //background-position: 50% 50%
+        //align-items: center;
+    }
+    .col-info{
+        width: 50%;
+    }
+    .message-user{
+        width: 350px;
+        margin-top: 65px;
+    }
+    .message-sugestion{
+        width: 328px;
+        margin-bottom: 30px;
+    }
     .message-error{
         display: flex;
         //justify-content:start;
         align-items: flex-end;
         height: 65px;
-        padding-left: 77px;   
+        margin-left: 77px;   
+    }
+}
+
+@media(min-width: 1440px){
+    .mainContainer{
+        display: flex;
+        flex-direction: row;
+    }
+    .col-imagen{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 735px;
+    }
+    .message-error{
+        margin-top: 0px;
+        width: 100%;
+        height: 65px;
+        margin-left: 0px;
+    }
+    .message-error p{
+        margin-left: 77px;
+    }
+    .figure{
+        height: 974px;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        background-size: 539.22px 447.43px;
+        background-position: 77px 200px;
+    }
+
+    .col-info{
+        display: flex;
+        flex-direction: column;  
+        width: 705px;
+    }
+    .message-user{
+        height: 455px;
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .message-user p{
+        width: 586px;
+        height: 190px;
+        margin-right: 119px;
+
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+    }
+    
+    .message-sugestion{
+        background-color: aquamarine;
+        width: 100%;
+        height: 208px;
+        margin: 0px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .message-sugestion p{
+        width: 381px;
+        height: 108px;
+        margin-bottom: 64px;
+        margin-right: 323px;
+
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+        color: #4F4F4F;
+    }
+
+    .button{
+        width: 100%;
+        height: 376px;
+        margin: 0px;
+        display: flex;
+        align-items: flex-start;
     }
 
 }
-*/
