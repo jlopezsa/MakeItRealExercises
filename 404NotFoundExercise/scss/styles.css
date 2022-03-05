@@ -1,0 +1,116 @@
+@font-face {
+  font-family: Inconsolata;
+  src: url(../fonts/inconsolata_[allfont.es].ttf);
+}
+
+@font-face {
+  font-family: Space Mono;
+  src: url(../fonts/SpaceMono-Regular.ttf);
+}
+
+.message-error {
+  position: absolute;
+  width: 133px;
+  height: 25px;
+  left: 24px;
+  top: 20px;
+  font-family: Inconsolata;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.figure {
+  position: absolute;
+  left: 11.73%;
+  right: 11.78%;
+  top: 11.49%;
+  bottom: 63.44%;
+  background-image: url(../figures/scarecrow.svg);
+  background-repeat: no-repeat;
+}
+
+.message-user {
+  position: absolute;
+  width: 350px;
+  height: 142px;
+  left: 24px;
+  top: 407px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 71px;
+  letter-spacing: -0.035em;
+  /* Gray 1 */
+  color: #333333;
+}
+
+.message-sugestion {
+  position: absolute;
+  width: 328px;
+  height: 81px;
+  left: 23px;
+  top: 579px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.035em;
+  /* Gray 2 */
+  color: #4F4F4F;
+}
+
+.button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  width: 216px;
+  height: 68px;
+  left: 24px;
+  top: 726px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* Gray 1 */
+  background: #333333;
+}
+
+.button__message {
+  position: absolute;
+  width: 130px;
+  height: 21px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer {
+  position: absolute;
+  width: 287px;
+  height: 17px;
+  left: 46px;
+  top: 908px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  text-align: center;
+  color: #BDBDBD;
+}
+/*# sourceMappingURL=styles.css.map */
