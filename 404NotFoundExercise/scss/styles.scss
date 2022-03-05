@@ -71,30 +71,29 @@
 }
 
 .button{
-    display: flex;
     position: absolute;
     width: 216px;
     height: 68px;
     left: 24px;
     top: 726px;
-    justify-content: center;
-    align-items:center;
-    
-    /* Gray 1 */
-
     background: #333333;
 }
 
-.button__message{
+
+.button__message p{
     position: absolute;
     width: 130px;
     height: 21px;
-    
+    left: 43px;
+    top: 10px;
+
     font-family: Space Mono;
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    
+    line-height: 21px;
+    /* identical to box height */
+
     letter-spacing: -0.035em;
     text-transform: uppercase;
 
