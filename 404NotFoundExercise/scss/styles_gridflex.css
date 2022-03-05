@@ -91,7 +91,15 @@ body {
   width: 216px;
   height: 68px;
   margin: 0px;
-  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: Space Mono;
   font-style: normal;
   font-weight: bold;

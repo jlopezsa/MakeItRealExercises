@@ -89,7 +89,9 @@ body{
     width: 216px;
     height: 68px;
     margin: 0px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     font-family: Space Mono;
     font-style: normal;
